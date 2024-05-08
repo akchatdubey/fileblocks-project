@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-md-6 mx-auto card py-5">
+
+            {% from "include/formhelpers.html" import render_field %}
+
+            <h4>
+                <strong>
+                    Login to Fileblocks
+                </strong>
+            </h4>
+           
+
+            <form method="POST" class="my-3">
+
+                {{ render_field(form.email, class="form-control") }}
+                {{ render_field(form.password, class="form-control") }}
+
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+           
+
+            <a href="/register" class="nav-link">Create a New Account!</a>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

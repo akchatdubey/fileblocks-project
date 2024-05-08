@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+    <div class="row my-5"></div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="fs-6">Show File-select Fields</h1>
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="myfile"></label>
+                            <input type="file" id="myfile" name="myfile" class="form-control" />
+                        </div>
+
+                        <input type="submit" class="btn btn-primary" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
