@@ -1,3 +1,4 @@
-print("Hello world")
-print(100)
-print(145*125)
+def message():
+    print("hello world")
+    
+message()
