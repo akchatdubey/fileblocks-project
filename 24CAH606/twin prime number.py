@@ -11,4 +11,4 @@ def generate_twins(start,end):
         if is_prime(i) and is_prime(j):
             print(i,"and",j)
 
-generate_twins(2,1000)
+generate_twins(2,999)

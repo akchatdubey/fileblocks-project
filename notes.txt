@@ -3,12 +3,6 @@ WAP to perform list operations -
 creating, accessing,slicing,modifying,adding,removing,sorting,reversing, finding length and looping through lists.
 
 
+Practical-2(B) WAP to get user ID, user name, and user age from user and based on the entered id print the details for particular user.
 
 
-#wap to calculate area of rectangle, circle , square
- wap to check whether a number is divisible by 5 and 11 or not.
- wap to program to find the greatest number among three number.
- wap to check whether a number is negative positive and zero.
- write a program to calculate factorial of given number.
- write a program to print a multiplication table of a given number.
- wap to check whether number is even or odd.
