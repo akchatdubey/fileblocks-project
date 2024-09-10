@@ -60,3 +60,4 @@ print("Length of the list:", length_of_list)
 print("\nLooping through the list:")
 for element in my_list:
     print(element)
+    

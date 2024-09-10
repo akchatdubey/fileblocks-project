@@ -1,8 +1,14 @@
 experiment2 = (INDEX MEIN LIKHNA PERFORMING LIST operations)
 WAP to perform list operations - 
 creating, accessing,slicing,modifying,adding,removing,sorting,reversing, finding length and looping through lists.
-
-
 Practical-2(B) WAP to get user ID, user name, and user age from user and based on the entered id print the details for particular user.
 
+concatination and copy operation in list.
+what is list comprehension- ways ,operation and
 
+
+
+3rd Practical
+Implement a student class with information such as roll no , name , class.
+the information must be entered by the user
+#using init method
