@@ -12,3 +12,23 @@ what is list comprehension- ways ,operation and
 Implement a student class with information such as roll no , name , class.
 the information must be entered by the user
 #using init method
+
+
+
+4th Practical
+4(a)- Write a program to demonstrate various mathematical and statistical operations on 1-D array.
+4(b)- Write a program to demonstrate addition, subtraction and multiplication of 2-D array.
+
+
+practice questions in numpy
+write a program to swap two columns in numpy array.
+write a program to import a dataset with numbers and text while keeping the text intact in python numpy.
+
+
+
+data=np.genfromtxt()skip header
+data= np.genfromtxt('numpydata.csv',delimiter=',',dtype=object,skip_header=1)
+print("data imported",data)
+
+
+
