@@ -121,7 +121,7 @@ class Application(ctk.CTk):
         amount = self.get_amount_from_entry(amount_entry)
         category = category_entry.get()
         if amount is not None:
-            self.expense += amount\
+            self.expense += amount
             self.expense_transactions.append((category, amount))
             self.update_table(self.expense_tree, self.expense_transactions)
             category_entry.delete(0, 'end')
